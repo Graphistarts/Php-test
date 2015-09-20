@@ -1,0 +1,115 @@
+@import url("http://www.kevinkevers.be/_ressources/reset.css");
+
+body{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+}
+.papa{
+    margin-bottom: 20px;
+    font-size:1.4rem;
+}
+
+main{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+header{
+    background: rgba(255,153,0,.5);
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+h2{
+    font-weight: 300;
+}
+
+form div{
+    overflow: hidden;
+    background: rgba(0,0,0,.05);
+}
+
+form div:nth-child(2n){
+    background: rgba(0,0,0,0);
+}
+
+label{
+    display: block;
+    float: left;
+    width: 350px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+
+input[type="checkbox"]
+{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: block;
+    height: 20px;
+    width: 20px;
+    box-sizing: border-box;
+    -webkit-appearance:none;
+    border:1px solid #444;
+    transition: .5s ease;
+    -moz-transition: .5s ease;
+    -webkit-transition: .5s ease;
+    -o-transition: .5s ease;
+    cursor: pointer;
+}
+
+
+input[type="checkbox"]:checked
+{
+    background: url("../img/check.png");
+    background-size: cover;
+}
+
+input[type="submit"]{
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    background: rgba(255,153,0,1);
+    border: 2px solid transparent;
+    color: white;
+    padding: 10px 0;
+    transition: .5s ease;
+    -moz-transition: .5s ease;
+    -webkit-transition: .5s ease;
+    -o-transition: .5s ease;
+}
+
+input[type="submit"]:hover{
+    border: 2px solid rgba(255,153,0,1);
+    background: transparent;
+    color: rgba(255,153,0,1);
+}
+
+.response{
+    text-align: center;
+}
+
+.response h1{
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.response h2{
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.ok{
+    background:rgba(50,245,100,.5);
+}
+
+.ok img{
+    margin-top: 20px;
+}
+
+.maybe{background:rgba(240,240,100,.5);}
+.no{background:rgba(250,0,0,.5);color: white;}
