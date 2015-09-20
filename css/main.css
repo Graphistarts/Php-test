@@ -113,3 +113,8 @@ input[type="submit"]:hover{
 
 .maybe{background:rgba(240,240,100,.5);}
 .no{background:rgba(250,0,0,.5);color: white;}
+
+footer{
+    text-align: center;
+    margin-top: 50px;
+}

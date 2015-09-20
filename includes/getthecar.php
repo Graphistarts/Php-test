@@ -38,7 +38,7 @@ function responseDady($for,$against){
         displayCar();
 
     else if($for == 2 && $against <= 1)
-        echo('<h2>Ok à condition que tu fasses encore quelque chose pour moi.</h2>');
+        echo('<h2 class="maybe">Ok à condition que tu fasses encore quelque chose pour moi.</h2>');
 
     else if($for == 3 && $against == 2)
     {
